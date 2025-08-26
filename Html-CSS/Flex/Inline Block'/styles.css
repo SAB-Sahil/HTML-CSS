@@ -1,0 +1,64 @@
+/* 
+    display :  property specifies if/how
+                an element is displayed
+
+    block-level : start on a new line, take up the
+                    full width available
+                (h1, div, p, form, header, footer)
+                can apply width height
+
+    inline = do not start on a new line, width is limited to what is needed
+                (span, a, img)
+                cant apply width height
+*/
+
+.de {
+  background-color: rgb(238, 135, 97);
+  border: 2px solid black;
+  padding: 4px;
+  margin: 4px;
+  /* width: 50%; */
+  height: 100px;
+
+  display: inline-block;
+}
+
+.se {
+  background-color: rgb(136, 212, 239);
+  border: 2px solid black;
+  padding: 4px;
+  margin: 4px;
+  display: inline-block;
+  /* width: 50%; */
+  height: 100px;
+}
+
+.c4 {
+  display: inline;
+}
+
+.c1 {
+  margin: 20px;
+  /* border: 2px solid black; */
+  /* width: 25%; */
+  display: inline;
+}
+
+.c2 {
+  display: inline-block;
+  padding: 5px;
+  margin: 20px;
+  border: 2px solid black;
+  width: 25%;
+}
+
+.c3 {
+  padding: 5px;
+  margin: 20px;
+  border: 2px solid black;
+  width: 25%;
+}
+
+.c {
+  padding: 10px;
+}

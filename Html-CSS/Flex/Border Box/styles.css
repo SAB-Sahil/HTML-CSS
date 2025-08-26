@@ -1,0 +1,31 @@
+/* 
+    WITHOUT BORDER BOX HEIGHT AND WIDTH IS CALCULATED BY INCLUDING 
+    MARGIN AND PADDING 
+    WHERE AS WITH BBH HEIGHT IS ORIGINAL HEIGHT
+*/
+
+.c1{
+    background-color: aqua;
+    padding: 5px;
+    margin: 100px;
+    border: 10px solid black;
+    height: 100px;
+    width: 100px;
+    box-sizing: border-box;
+ }
+
+.c2{
+    background-color:blanchedalmond;
+    padding: 5px;
+    margin: 100px;
+    border: 10px solid black;
+    height: 100px;
+    width: 100px;
+    /* box-sizing: border-box; */
+    
+}
+
+.c{
+background-color: rgb(149, 242, 172);
+    padding: 10px;
+}
